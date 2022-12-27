@@ -59,7 +59,7 @@ song_label.pack()
 
 song_label = tk.Label(text="")
 song_label.pack()
-message_label = tk.Label(text="(3,9,40,20,4,9)  - (4,20,40,70) -  (70,40,200,9,300) - (30,5,2)", font=("Helvetica", 10))
+message_label = tk.Label(text="(3,9,40,20,4,9)  - (70,40,20,4) -  (70,40,200,9,300) - (30,5,2)", font=("Helvetica", 10))
 message_label.pack()
 play_song_button1 = tk.Button(text="Play Song 1", command=play_song_button_clicked1)
 play_song_button1.pack()
